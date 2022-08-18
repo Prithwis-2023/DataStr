@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "DataStr"
-version = "1.0"
+version = ""
 authors = [
   { name="Prithwis Das", email="prithwisdas3333@gmail.com" },
 ]

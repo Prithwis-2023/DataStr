@@ -5,13 +5,13 @@ def display_stack(l:list, top):
         print("+--------------+")
         for elements in l:
             print(elements)
-            print("----------------")   
+            print("+--------------+") 
     
     elif top == l[-1]:
         print("+--------------+")
         for elements in list(reversed(l)):
             print(elements)
-            print("----------------")
+            print("+--------------+")
 
     else:
         print("Error")
@@ -42,7 +42,3 @@ def pop(l:list, top):
         return "Error"
         sys.exit(1)
 
-
-le = [1, 2, 3, 4, 5, 6, 7]
-
-display_stack(push(le, 1, 8), 8)
